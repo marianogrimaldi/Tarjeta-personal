@@ -12,7 +12,7 @@ const Home = () => {
 
     return (
 
-        <div>
+        <div className="animation">
             <Traductor />
             <img src={zermatt} className="imgMobileHor" alt="" />
             <img src={zermatt1} className="imgZermatt" alt="" />
