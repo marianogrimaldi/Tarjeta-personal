@@ -1,5 +1,6 @@
 import "./Home.scss"
 import zermatt from "../../assets/zermatt1.jpg"
+import zermatt2 from "../../assets/zermatt2.jpg"
 import logoMajo from "../../assets/logoMajo.png"
 import Traductor from "../TraductorSelect/Traductor"
 import { useTranslation } from "react-i18next"
@@ -12,7 +13,9 @@ const Home = () => {
        
         <div>
              <Traductor/>
-<img src={zermatt} className="imgZermatt" alt="" />
+        
+            <img src={zermatt} className="imgZermatt" alt="" />
+            <img src={zermatt2} className="imgMobile" alt="" />
             <div className="datos">
                  <h1>MARIANO GRIMALDI</h1>
             <h2>{t("Home.tecnico")} </h2>
