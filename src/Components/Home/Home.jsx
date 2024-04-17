@@ -21,6 +21,7 @@ const Home = () => {
                 <h1>MARIANO GRIMALDI</h1>
                 <h2>{t("Home.tecnico")} </h2>
                 <h3>{t("Home.agencia")}</h3>
+                <p>marianodanielgrimaldi@gmail.com</p>
                 <a href="http://www.majopurinan.tur.ar/" target="_blank"><p>www.majopurinan.tur.ar</p></a>
                 <div className="flexNumber">
                     <a href="https://api.whatsapp.com/send?phone=5493406421065" target="_blank"><p>3406 421065</p></a>
