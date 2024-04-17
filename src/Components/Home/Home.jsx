@@ -1,5 +1,6 @@
 import "./Home.scss"
-import zermatt from "../../assets/zermatt1.jpg"
+import zermatt from "../../assets/zermatt.jpg"
+import zermatt1 from "../../assets/zermatt1.jpg"
 import zermatt2 from "../../assets/zermatt2.jpg"
 import logoMajo from "../../assets/logoMajo.png"
 import Traductor from "../TraductorSelect/Traductor"
@@ -13,8 +14,8 @@ const Home = () => {
        
         <div>
              <Traductor/>
-        
-            <img src={zermatt} className="imgZermatt" alt="" />
+             <img src={zermatt} className="imgMobileHor" alt="" />
+            <img src={zermatt1} className="imgZermatt" alt="" />
             <img src={zermatt2} className="imgMobile" alt="" />
             <div className="datos">
                  <h1>MARIANO GRIMALDI</h1>

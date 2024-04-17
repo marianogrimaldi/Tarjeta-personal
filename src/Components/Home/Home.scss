@@ -20,9 +20,7 @@ h1, h2, h3, h4, p{
 }
 
 
-h1{
-    text-decoration: underline;
-}
+
 
 @media screen and (max-width: 479px){
     h1{
@@ -76,13 +74,7 @@ a{
  
 }
 
-@media screen and (max-width: 479px){
-    .datos{
-        p{
-            margin-bottom: 1rem;
-        }
-    }
-}
+
 
 .frase{
     margin-top: 2rem;
@@ -98,5 +90,24 @@ a{
 @media screen and (max-width: 479px){
     .imgMobile{
         display: block;
+    }
+}
+
+.imgMobileHor{
+    display: none;
+    width: 100%;
+    position: absolute;
+    opacity: .3;
+}
+
+@media screen and (max-width: 992px){
+    .imgMobile{
+        display: block;
+    }
+}
+
+@media screen and (max-width: 479px){
+    .imgMobileHor{
+        display: none;
     }
 }
