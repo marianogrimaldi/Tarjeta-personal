@@ -28,7 +28,7 @@ h1, h2, h3, h4, p{
         
     }
     h2, h3, h4,p{
-        font-size: .7rem;
+        font-size: .8rem;
     }
 }
 
@@ -46,7 +46,7 @@ a{
     opacity: .3;
 }
 
-@media screen and (max-width: 479px){
+@media screen and (max-width: 992px){
     .imgZermatt{
         display: none;
     }
